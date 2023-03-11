@@ -4,7 +4,7 @@ const lang = (string: string, data?: string[] | number[]) => {
         for(let i=0;i<=data.length;i++){
             test = test.replace(`{#${i}}`, data[i-1])
         }
-       return  console.log(string, test)
+       return  console.log(`${string} ${test}`)
 
     }
     return console.log(string)
