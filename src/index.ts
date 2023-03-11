@@ -1,9 +1,16 @@
+import EL from './lang/el'
+import EN from './lang/en'
+
 const lang = (string: string, data?: string[] | number[]) => {
     var test = 'this {#1} is {#2} a test {#3}'
+    
+    var l = 'EL'
+    const lan = l === 'EL' ? EL : EN
     if (data){
         for(let i=0;i<=data.length;i++){
             test = test.replace(`{#${i}}`, data[i-1])
         }
+        console.log(lan.CLICK)
        return  console.log(`${string} ${test}`)
 
     }
