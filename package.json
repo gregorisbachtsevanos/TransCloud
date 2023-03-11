@@ -1,22 +1,14 @@
 {
-  "name": "eight.translate.library",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "name": "eight.translate",
+  "version": "1.0.0",
+  "description": "translate library",
+  "main": "src/index.ts",
+  "license": "MIT",
   "dependencies": {
-    "@types/node": "18.15.0",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.11",
-    "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.9.5"
+    "@types/node": "^18.15.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
   }
 }
