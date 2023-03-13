@@ -31,7 +31,7 @@ const lang = (string: string, data?: string[] | number[]) => {
     const lan = l === 'EL' ? EL : EN
     if (data){
         for(let i=0;i<=data.length;i++){
-            test = test.replace(`{#${i}}`, data[i-1])
+            test = test.replace(`{#${i}}`, data[i-1] as any)
         }
         console.log(lan.CLICK)
        return  console.log(`${string} ${test}`)
