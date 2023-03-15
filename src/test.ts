@@ -2,7 +2,7 @@
 //! class working sample
 
 import { EL } from "./lang/el"
-import { EN } from "./lang/en"
+import { en } from "./lang/en"
 
 class Translate {
     
@@ -12,13 +12,11 @@ class Translate {
     
     lang(_string: string, data?: any){
         var test = 'this {#1} is {#2} a test {#3}'
-        var l = 'EN'
-        const lan = l === 'EL' ? EL : EN
         if (data){
             for(let i = 0; i <= data.length; i++){
                 test = test.replace(`{#${i}}`, data[i-1] as any)
             }
-            console.log(lan.CLICK)
+            console.log(en[_string as keyof typeof en])
         return  console.log(`${_string} ${test}`)
 
         }
