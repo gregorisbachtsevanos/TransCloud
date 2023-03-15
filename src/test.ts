@@ -10,7 +10,7 @@ class Translate {
         
     }
     
-    lang(_string: string, data?: any){
+    lang(_string: string, data?: [string | number]){
         var test = 'this {#1} is {#2} a test {#3}'
         if (data){
             for(let i = 0; i <= data.length; i++){
