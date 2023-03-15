@@ -1,4 +1,8 @@
+
 //! class working sample
+
+import { EL } from "./lang/el"
+import { EN } from "./lang/en"
 
 class Translate {
     
@@ -8,7 +12,6 @@ class Translate {
     
     lang(_string: string, data?: string | number){
         console.log(_string)
-        
     }
 }
 
@@ -18,14 +21,6 @@ t.lang('test123')
 //! it's working. need proper structure
 
 const lang = (string: string, data?: string[] | number[]) => {
-    const EL = Object.freeze({
-        HELLO: "Hello word",
-        CLICK: "Click on the Vite and React logos to learn more",
-    });
-    const EN = Object.freeze({
-        HELLO: "Γεία",
-        CLICK: "Κάνε κλικ για περισσότερα",
-    });
     var test = 'this {#1} is {#2} a test {#3}'
     var l = 'EN'
     const lan = l === 'EL' ? EL : EN
