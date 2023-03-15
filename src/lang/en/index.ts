@@ -1,10 +1,6 @@
-export const EN = Object.freeze({
-  HELLO: "Hello word",
-  CLICK: "Click on the Vite and React logos to learn more",
-});
-
 export const en = {
-  "HELLO": "Hello word",
-  "CLICK": "Click on the Vite and React logos to learn more"
+  "HELLO": "Hello {#1}",
+  "CLICK": "Click on the {#1} and {#2} logos to learn more",
+  "MORE": "More info",
 };
 
