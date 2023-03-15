@@ -10,29 +10,40 @@ class Translate {
         
     }
     
-    lang(_string: string, data?: string | number){
-        console.log(_string)
-    }
+    lang(_string: string, data?: any){
+        var test = 'this {#1} is {#2} a test {#3}'
+        var l = 'EN'
+        const lan = l === 'EL' ? EL : EN
+        if (data){
+            for(let i = 0; i <= data.length; i++){
+                test = test.replace(`{#${i}}`, data[i-1] as any)
+            }
+            console.log(lan.CLICK)
+        return  console.log(`${_string} ${test}`)
+
+        }
+        return console.log(_string)
+        }
 }
 
 let t = new Translate()
-t.lang('test123')
+t.lang('HELLO')
 
 //! it's working. need proper structure
 
-const lang = (string: string, data?: string[] | number[]) => {
-    var test = 'this {#1} is {#2} a test {#3}'
-    var l = 'EN'
-    const lan = l === 'EL' ? EL : EN
-    if (data){
-        for(let i=0;i<=data.length;i++){
-            test = test.replace(`{#${i}}`, data[i-1] as any)
-        }
-        console.log(lan.CLICK)
-       return  console.log(`${string} ${test}`)
+// const lang = (string: string, data?: string[] | number[]) => {
+//     var test = 'this {#1} is {#2} a test {#3}'
+//     var l = 'EN'
+//     const lan = l === 'EL' ? EL : EN
+//     if (data){
+//         for(let i=0;i<=data.length;i++){
+//             test = test.replace(`{#${i}}`, data[i-1] as any)
+//         }
+//         console.log(lan.CLICK)
+//        return  console.log(`${string} ${test}`)
 
-    }
-    return console.log(string)
-}
+//     }
+//     return console.log(string)
+// }
 
-lang('hello', [1,5,6])
+// lang('hello', [1,5,6])
