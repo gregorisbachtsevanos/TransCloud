@@ -2,8 +2,8 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 import { languageChanger } from "./utils/languageChanger";
-import { El } from "./lang/el";
-import { En } from "./lang/en";
+import { el } from "./lang/el";
+import { en } from "./lang/en";
 
 interface Props {
 	languageChanger: () => void;
