@@ -2,9 +2,12 @@
   "name": "eight.translate",
   "version": "1.0.0",
   "description": "translate library",
-  "main": "dist/index.ts",
+  "type": "module",
   "module": "dist/index.modern.js",
   "source": "src/index.ts",
+  "engines": {
+    "node":">=10"
+  },
   "license": "MIT",
   "dependencies": {
     "@types/node": "^18.15.0",
@@ -14,6 +17,9 @@
   "scripts": {
     "build": "microbundle --no-compress --format modern,cjs"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "ts-node": "^10.9.1"
   }
