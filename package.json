@@ -2,7 +2,9 @@
   "name": "eight.translate",
   "version": "1.0.0",
   "description": "translate library",
-  "main": "src/index.ts",
+  "main": "dist/index.ts",
+  "module": "dist/index.modern.js",
+  "source": "src/index.ts",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^18.15.0",
