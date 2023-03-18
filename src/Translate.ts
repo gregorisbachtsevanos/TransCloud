@@ -42,4 +42,4 @@ class Translate {
 export const translate = Translate
 
 // let t = new Translate()
-// t.lang('MORE')
+// t.log('MORE')
