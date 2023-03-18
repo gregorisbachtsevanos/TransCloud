@@ -1,5 +1,4 @@
 
-//! class working sample
 import { el } from "./lang/el"
 import { en } from "./lang/en"
 
