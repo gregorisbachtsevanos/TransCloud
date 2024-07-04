@@ -1,20 +1,20 @@
 # Translate
 Translate is a powerful and easy-to-use translation library built with TypeScript. It helps you internationalize your applications by providing a simple API to manage and apply translations.
 
-Table of Contents
-Features
-Installation
-Usage
-API
+Table of Contents\
+Features\
+Installation\
+Usage\
+API\
 Project Structure
-Contributing
-License
-Features
-Simple and intuitive API
-Support for multiple languages
-Asynchronous loading of translation files
-Type-safe translations with TypeScript
-Placeholder support within translations
+Contributing\
+License\
+Features\
+Simple and intuitive API\
+Support for multiple languages\
+Asynchronous loading of translation files\
+Type-safe translations with TypeScript\
+Placeholder support within translations\
 Installation
 To get started with Translate, follow these steps:
 
