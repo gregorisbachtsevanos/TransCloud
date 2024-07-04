@@ -20,7 +20,7 @@ To get started with Translate, follow these steps:
 
 Install the library:
 ```
-inport it as dependency
+import it as dependency
 ```
 Install peer dependencies:
 
