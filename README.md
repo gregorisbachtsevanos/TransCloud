@@ -1,5 +1,5 @@
 # Translate
-Translate is a powerful and easy-to-use translation library built with TypeScript. It helps you internationalize your applications by providing a simple API to manage and apply translations.
+TransCloud is a powerful and easy-to-use translation library built with TypeScript. It helps you internationalize your applications by providing a simple API to manage and apply translations.
 
 To get started with Translate, follow these steps:
 
