@@ -4,8 +4,10 @@ TransCloud is a powerful and easy-to-use translation library built with TypeScri
 To get started with Translate, follow these steps:
 
 Install the library:
+
+*import it as dependency*
 ```
-import it as dependency
+transcloud:https://github.com/gregorisbachtsevanos/TransCloud.git
 ```
 Install peer dependencies:
 
