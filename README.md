@@ -15,9 +15,12 @@ Install peer dependencies:
 npm install
 ```
 Usage
+
 Set up your translation files:
 
-Create JSON files for each language in your project. For example:
+*Create JSON files for each language in your project*
+
+For example:
 
 ```
 // en.json
