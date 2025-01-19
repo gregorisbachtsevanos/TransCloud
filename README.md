@@ -72,8 +72,10 @@ const YourComponent = () => {
   );
 };
 ```
-API\
-TranslateProvider\
+API
+
+TranslateProvider
+
 Props:
 ```
 translations (object): An object containing your translation files.
